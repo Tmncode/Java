@@ -1,0 +1,170 @@
+1.A file channel ____________.
+
+      A.is seekable
+        can be written to
+        can be read from
+        All of the above are true.
+
+        See: Ch. 13: File Input and Output, Section - Learning About Random Access Files
+
+2.Which of the following does the same thing as the BufferedWriter class newLine() method?
+
+      A.System.getProperty("line.separator");
+        System.out.println()
+        System.out.print("\n")
+        Path.getProperty("line.separator ")
+
+        See: Ch. 13: File Input and Output, Section - Creating and Using Sequential Data Files
+
+3.Which of the following statements is true?
+
+      A.Volatile storage is lost when a computer loses power.
+        Computer disks are volatile storage devices
+        Volatile storage lasts only a few seconds.
+        All of the above are true
+
+        See: Ch. 13: File Input and Output, Section - Understanding Computer Files
+
+4.A path that needs no additional information to locate a file is ____________.
+
+      A.an absolute path
+        a constant path
+        a relative path
+        a final path
+
+        See: Ch. 13: File Input and Output, Section - Using the Path and Files Classes
+
+5.When records are accessed one after the other in the order in which they were stored, 
+  their file is being used as a random access file.
+
+      A.false
+        true
+
+        See: Ch. 13: File Input and Output, Section - File Organization, Streams, and Buffers
+
+6.The data hierarchy occurs in the following order from the smallest to largest piece of data: ____________.
+
+      A.character, field, record, file
+        character, file, record, field
+        character, record, field, file
+        record, character, field, file
+
+        See: Ch. 13: File Input and Output, Section - File Organization, Streams, and Buffers
+
+7.The Path class getFileName() method returns ____________.
+
+      A.the last item in a Path's list of name elements
+        an absolute Path
+        the String representation of a Path
+        the first item in a Path's list of name elements
+
+        See: Ch. 13: File Input and Output, Section - Using the Path and Files Classes
+
+8.If you fail to close an output file, ____________.
+
+      A.you might lose access to the written data
+        Java will close it for you automatically
+        there are usually no serious consequences
+        Two of the above are correct.
+
+        See: Ch. 13: File Input and Output, Section - File Organization, Streams, and Buffers
+
+9.Real-time applications use random access files.
+
+      A.true
+        false
+
+        See: Ch. 13: File Input and Output, Section - Learning About Random Access Files
+
+10.Which of the following statements creates a Path named p to a FileStream named f?
+
+      A.Path p = f.getPath("C:\\Java\\MyFile.txt");
+        Path p = new Path("C:\\Java\\MyFile.txt");
+        Path p = getPath(new f("C:\\Java\\MyFile.txt"));
+        Path p = f("C:\\Java\\MyFile.txt");
+
+        See: Ch. 13: File Input and Output, Section - Understanding Computer Files
+
+11.Which of the following statements always returns the same value as Files.exists(file) ?
+
+      A.file.checkAccess()
+        file.checkAccess(READ, WRITE)
+        file.checkAccess(EXISTS)
+        file.checkAccess(file.exists())
+
+        See: Ch. 13: File Input and Output, Section - Using the Path and Files Classes
+
+12.The newOutputStream() method ____________.
+
+        opens a file for writing
+        is defined in the Files class
+        creates a file if it does not already exist
+      A.All of the above are true.
+
+        See: Ch. 13: File Input and Output, Section - Using Java's IO Classes
+
+13.Which of the following systems is most likely to use batch processing?
+
+      A.a payroll system
+        an email application
+        a point-of-sale credit checking system
+        an airline reservation system
+
+        See: Ch. 13: File Input and Output, Section - Learning About Random Access Files
+
+14.A collection of data stored on a nonvolatile device in a computer system is ____________.
+
+      A.a file
+        volatile
+        a type of binary file
+        an application
+
+        See: Ch. 13: File Input and Output, Section - Understanding Computer Files
+
+15.Java's print() and println() methods are defined in the BufferedOutputStream class.
+
+      A.false
+        true
+
+        See: Ch. 13: File Input and Output, Section -
+
+16.You cannot delete a Path if it represents a directory that is not empty.
+
+      A.true
+        false
+
+        See: Ch. 13: File Input and Output, Section - Using the Path and Files Classes
+
+17.InputStream is ____________.
+
+      A.an abstract class
+        used for screen output as opposed to file output
+        a child of OutputStream
+        All of the above are true.
+
+        See: Ch. 13: File Input and Output, Section - Using Java's IO Classes
+
+18.A complete list of the disk drive plus the hierarchy of directories in which a file resides is called its path.
+
+      A.true
+        false
+
+        See: Ch. 13: File Input and Output, Section - Understanding Computer Files
+
+19.A buffer ____________.
+
+      A.holds bytes that are scheduled for input or output
+        cannot be flushed in Java
+        deteriorates program performance
+        All of the above are true.
+
+        See: Ch. 13: File Input and Output, Section - File Organization, Streams, and Buffers
+
+20.Which of the following is true of streams?
+
+      A.Streams are channels through which bytes flow
+        Only one stream can be open in a program at a time.
+        Streams always flow in two directions.
+        All of the above are true
+
+        See: Ch. 13: File Input and Output, Section - File Organization, Streams, and Buffers
