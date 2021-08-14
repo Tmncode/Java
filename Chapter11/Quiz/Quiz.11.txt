@@ -1,0 +1,179 @@
+1.Each Java subclass has the ability to inherit from ____________ parent class(es).
+
+     A.one
+       zero
+       two
+       any number of
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Interfaces
+
+2.An application's ability to select the correct subclass method to execute is known as ____________ method binding.
+
+     A.dynamic
+       intelligent
+       polymorphic
+       early
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Using Dynamic Method Binding
+
+3.When you want to provide some data or methods that subclasses can inherit, but you want the subclasses to override some specific methods,
+  you should write a(n) ____________.
+
+     A.abstract class
+       final superclass
+       concrete object
+       interface
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
+
+4.You ____________ override the toString() method in any class you create.
+
+     A.can
+       must implement StringListener to
+       cannot
+       must
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Using the Object Class and Its Methods
+
+5.You can instantiate concrete objects from a(n) ____________.
+
+       abstract class
+       interface
+       either a or b
+     A.neither a nor b
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Interfaces
+
+6.Parent classes are more specific than their child classes.
+
+    A.false
+      True
+
+      See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
+
+7.Assume the following statement appears in a working Java program and that the equals() method 
+  has been overridden correctly in thing's class:
+  if(thing.equals(anotherThing)) x = 1;
+  You know that ____________.
+
+     A.anotherThing is the same type as thing
+       Every field in thing has the same value as its counterpart in anotherThing.
+       thing is an object of the Object class
+       All of the above are correct.
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Using the Object Class and Its Methods
+
+8.The Object class equals() method takes two arguments.
+
+     A.False
+       True
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Using the Object Class and Its Methods
+
+9.The Object class equals() method considers two object references to be equal if they have the same ____________.
+
+    A.memory address
+      value in any data field
+      value in all data fields
+      data type
+
+      See: Ch. 11: Advanced Inheritance Concepts, Section - Using the Object Class and Its Methods
+
+10.An abstract class Employee has two subclasses, Permanent and Temporary. The Employee class contains an abstract method named setType().
+   Before you can instantiate Permanent and Temporary objects, which of the following statements must be true?
+
+      A.You must code statements for the setType() method within both the Permanent and Temporary classes.
+        You must not code statements for the setType() method within either the Permanent or Temporary class.
+        You can code statements for the setType() method within the Permanent class or the Temporary class, but not both.
+        You must code statements for the setType() method within the Permanent class.
+
+        See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
+
+11.Which statement creates an array of five references to an abstract class named Currency ?
+
+     A.Currency[] curencyref = new Currency[5];
+       Currency[] = new Currency[5];
+       Currency[5] currencyref = new Currency[5];
+       Currency[5] = new Currency[5];
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating Arrays of Subclass Objects
+
+12.Abstract classes can contain ____________.
+
+       nonabstract methods
+       abstract methods
+     A.both of the above
+       none of the above
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
+
+13.When you create a superclass and one or more subclasses, each object of the subclass "is a" superclass object.
+
+     A.True
+       False
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Using Dynamic Method Binding
+
+14.Abstract classes differ from other classes in that you ____________.
+
+     A.cannot instantiate objects from them
+       cannot have data fields within them
+       must not code any methods within them
+       must instantiate objects from them
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
+
+15.When you create a ____________ in Java, you create a variable name in which you can hold the memory address of an object.
+
+     A.reference
+       field
+       pointer
+       recommendation
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Using Dynamic Method Binding
+
+16.When you create a class that uses an interface, you include the keyword ____________ and the interface's name in the class header.
+
+     A.implements
+       listener
+       accoutrements
+       interface
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Interfaces
+
+17.An abstract class Dwelling has two subclasses, SingleFamily and MultiFamily.None of the constructors for these classes requires any arguments.
+   Which of the following statements is legal?
+
+     A.SingleFamily myHome = new SingleFamily();
+       Dwelling myHome = new Dwelling();
+       MultiFamily myHome = new Dwelling();
+       two of the above
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
+
+18.In Java, a class can ____________.
+
+     A.inherit from one abstract superclass at most
+       implement one interface at most
+       both a and b
+       neither a nor b
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Interfaces
+
+19.The alternative to multiple inheritance in Java is known as a(n) ____________.
+
+     A.interface
+       abstract class
+       superobject
+       none of the above
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Interfaces
+
+20.Which of the following statements is true?
+
+     A.Superclasses can contain abstract methods.
+       You can create an abstract class object using the new operator.
+       Superclass objects are members of their subclass.
+       An abstract class cannot contain an abstract method.
+
+       See: Ch. 11: Advanced Inheritance Concepts, Section - Creating and Using Abstract Classes
