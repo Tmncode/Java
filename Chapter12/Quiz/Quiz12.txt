@@ -1,0 +1,173 @@
+1.You ____________ within a try block.
+
+       A.can place any number of statements
+         must place only a single statement
+         must place a catch block
+         must place at least two statements
+
+         See: Ch. 12: Exception Handling, Section - Trying Code and Catching Exceptions
+
+2.Which of the following is least important to know if you want to be able to use a method to its full potential?
+
+       A.the number of statements within the method
+         the type of Exceptions the method throws
+         the method's return type
+         the type of arguments the method requires
+
+         See: Ch. 12: Exception Handling, Section - Specifying the Exceptions that a Method Can Throw
+
+3.A try block includes all of the following elements except ____________.
+
+       A.the keyword catch
+         the keyword try
+         curly braces
+         statements that might cause Exceptions
+
+         See: Ch. 12: Exception Handling, Section - Trying Code and Catching Exceptions
+
+4.The code within a finally block executes when the try block ____________.
+
+      A.either a or b (identifies one or more Exceptions, does not identifies any Exception)
+        identifies one or more Exceptions
+        does not identify any Exceptions
+        neither a nor b
+
+        See: Ch. 12: Exception Handling, Section - Using the finally Block
+
+5.All Java Exceptions are ____________.
+
+      A.Throwables
+        Omissions
+        Errors
+        RunTimeExceptions
+
+        See: Ch. 12: Exception Handling, Section - Learning About Exceptions
+
+6.A method that detects an error condition or Exception ____________ an Exception.
+
+      A.throws
+        handles
+        encapsulates
+        catches
+
+        See: Ch. 12: Exception Handling, Section - Trying Code and Catching Exceptions
+
+7.An advantage to using a try...catch block is that exceptional events are ____________.
+
+      A.isolated from regular events
+        integrated with regular events
+        reduced
+        eliminated
+
+        See: Ch. 12: Exception Handling, Section - Learning About Exceptions
+
+8.You can get a list of the methods through which an Exception has traveled by using the ____________ method.
+
+      A.printStackTrace()
+        getMessage()
+        callStack()
+        getPath()
+
+        See: Ch. 12: Exception Handling, Section - Tracing Exceptions Through the Call Stack
+
+9.A method can ____________.
+
+      A.either of the above (check for errors but not handle them, handle errors but check for them)
+        check for errors but not handle them
+        handle errors but not check for them
+        neither of the above
+
+        See: Ch. 12: Exception Handling, Section - Understanding the Advantages of Exception Handling
+
+10.A(n) ____________ is a statement used in testing programs that should be true; if it is not true, an Exception is thrown.
+
+      A.assertion
+        declaration
+        verification
+        throwable
+
+        See: Ch. 12: Exception Handling, Section - Using Assertions
+
+11.In object-oriented terminology, you ____________ a procedure that might not complete correctly.
+
+      A.try
+        encapsulate
+        handle
+        catch
+
+        See: Ch. 12: Exception Handling, Section - Trying Code and Catching Exceptions
+
+12.In object-oriented programming terminology, an unexpected or error condition is a(n) ____________.
+
+      A.exception
+        aberration
+        deviation
+        anomaly
+
+        See: Ch. 12: Exception Handling, Section - Learning About Exceptions
+
+13.The catch block that begins catch(Exception e) can catch Exceptions of type ____________.
+
+      A.both of the above (ArithmeticException, IOException)
+        ArithmeticException
+        IOException
+        none of the above
+
+        See: Ch. 12: Exception Handling, Section - Trying Code and Catching Exceptions
+
+14.Which of the following statements is true?
+
+      A.Errors are more serious than Exceptions.
+        Exceptions are more serious than Errors.
+        Exceptions and Errors are the same thing.
+        Errors and Exceptions are different but equally serious.
+
+        See: Ch. 12: Exception Handling, Section - Learning About Exceptions
+
+15.If you include three statements in a try block and follow the block with three catch blocks, 
+   and the second statement in the try block throws an Exception, then ____________.
+
+      A.the first matching catch block executes
+        the first two catch blocks execute
+        only the second catch block executes
+        the first catch block executes
+
+        See: Ch. 12: Exception Handling, Section - Throwing and Catching Multiple Exceptions
+
+16.The memory location where the computer stores the list of method locations to which the system must 
+   return is known as the registry.
+
+      A.false
+        true
+
+        See: Ch. 12: Exception Handling, Section - Tracing Exceptions Through the Call Stack
+
+17.The segment of code that handles or takes appropriate action following an exception is a catch block.
+
+      A.true
+        false
+
+        See: Ch. 12: Exception Handling, Section - Trying Code and Catching Exceptions
+
+18.The method that ends the current application and returns control to the operating system is ____________.
+
+      A.System.exit()
+        System.done()
+        System.end()
+        System.abort()
+
+        See: Ch. 12: Exception Handling, Section - Using the finally Block
+
+19.Any method can throw an Exception.
+
+      A.true
+        false
+
+        See: Ch. 12: Exception Handling, Section - Throwing and Catching Multiple Exceptions
+
+20.When a try block does not generate an Exception and you have included multiple catch blocks, only the first matching one executes.
+
+      A.false
+        true
+
+        See: Ch. 12: Exception Handling, Section - Throwing and Catching Multiple Exceptions
