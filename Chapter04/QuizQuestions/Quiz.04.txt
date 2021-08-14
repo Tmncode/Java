@@ -1,0 +1,174 @@
+1.Variables that are shared by every instantiation of a class are _____________.
+
+     A.class variables
+       public variables
+       illegal
+       private variables
+
+  See: Ch. 4: More Object Concepts, Section - Using static Fields
+
+2.If a method is written to receive a double parameter, and you pass an integer to the method, then the method will _____________.
+
+     A.work correctly; the integer will be promoted to a double
+       work correctly; the parameter type will automatically become an integer
+       execute, but any output will be incorrect
+       not work; an error message will be issued
+
+  See: Ch. 4: More Object Concepts, Section - Learning About Ambiguity
+
+3.A method variable _____________ a class variable with the same name.
+
+     A.overrides
+       alters
+       acquiesces to
+       destroys
+
+  See: Ch. 4: More Object Concepts, Section - Understanding Blocks and Scope
+
+4.The this reference _____________.
+
+     A.can be used implicitly
+       must not be used implicitly
+       must be used implicitly
+       must not be used
+
+  See: Ch. 4: More Object Concepts, Section - Learning About the this Reference
+
+5.The code between a pair of curly braces in a method is called a block.
+
+     A.True
+       False
+
+  See: Ch. 4: More Object Concepts, Section - Understanding Blocks and Scope
+
+6.A LocalDate object _____________.
+
+       is created using a public default constructor
+     A.can be displayed as a String
+       contains static fields with data such as the current year
+       all of the above
+
+  See: Ch. 4: More Object Concepts, Section - Using Automatically Imported, Prewritten Constants and Methods
+
+7.Java classes are stored in a folder or _____________.
+
+     A.package
+       packet
+       bundle
+       gaggle
+
+   See: Ch. 4: More Object Concepts, Section - Using Automatically Imported, Prewritten Constants and Methods
+
+8.Which of the following expressions correctly returns an integer that represents the month of a LocalDate object named hireDate?
+
+     A.hireDate.getMonthValue()
+       getMonthValue(hireDate)
+       getMonth(hireDate)
+       all of the above
+
+  See: Ch. 4: More Object Concepts, Section - Using Automatically Imported, Prewritten Constants and Methods
+
+9.The portion of a program within which you can reference a variable is the variable's _____________.
+
+     A.scope
+       range
+       domain
+       space
+
+  See: Ch. 4: More Object Concepts, Section - Understanding Blocks and Scope
+
+10.A constructor _____________ overloaded.
+
+     A.can be
+       cannot be
+       must be
+       is always automatically
+
+  See: Ch. 4: More Object Concepts, Section - Creating and Calling Constructors with Parameters
+
+11.The keyword final used with a variable declaration indicates a static field.
+
+       True
+     A.False
+
+  See: Ch. 4: More Object Concepts, Section - Using static Fields
+
+12.If you create a class that contains one method, and instantiate two objects, you usually store _____________ for use with the objects.
+
+     A.one copy of the method
+       two different methods containing two different this references
+       data only (the methods are not stored)
+       two copies of the method
+
+  See: Ch. 4: More Object Concepts, Section - Learning About the this Reference
+
+13.If you declare a variable as an instance variable within a class, and you declare and use the same variable name within a method of the class,
+   then within the method, _____________.
+
+       the class instance variable takes precedence
+       the two variables refer to a single memory address
+       an error will occur
+     A.the variable used inside the method takes precedence
+
+  See: Ch. 4: More Object Concepts, Section - Understanding Blocks and Scope
+
+14.Nonambiguous, overloaded methods must have the same _____________.
+
+     A.name
+       types of parameters
+       number of parameters
+       parameter names
+
+  See: Ch. 4: More Object Concepts, Section - Learning About Ambiguity
+
+15.You can declare variables with the same name multiple times _____________.
+
+     A.within a method
+       within a statement
+       You never can declare multiple variables with the same name.
+       within a block
+
+  See: Ch. 4: More Object Concepts, Section - Understanding Blocks and Scope
+
+16.A constructor _____________ parameters.
+
+     A.can receive
+       can receive a maximum of 10
+       must receive
+       cannot receive
+
+  See: Ch. 4: More Object Concepts, Section - Creating and Calling Constructors with Parameters
+
+17.Usually, you want each instantiation of a class to have its own copy of the data fields.
+
+     A.True
+       False
+
+  See: Ch. 4: More Object Concepts, Section - Learning About the this Reference
+
+18.Which of the following statements determines the square root of a number and assigns it to the variable s ?
+
+       number = sqrt(s);
+       number = Math.sqrt(s);
+     A.s = Math.sqrt(number);
+       s = sqrt(number);
+
+  See: Ch. 4: More Object Concepts, Section - Using Automatically Imported, Prewritten Constants and Methods
+
+19.When a block exists within another block, the blocks are _____________.
+
+       sheltered
+       structured
+       illegal
+     A.nested
+
+  See: Ch. 4: More Object Concepts, Section - Understanding Blocks and Scope
+
+20.Methods that you reference with individual objects are _____________.
+
+     A.nonstatic
+       private
+       static
+       public
+
+  See: Ch. 4: More Object Concepts, Section - Using static Fields
