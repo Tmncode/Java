@@ -1,0 +1,172 @@
+1.According to the rules of operator precedence, when division occurs in the same arithmetic statement as ____________,
+  the division operation always takes place first.
+
+       multiplication
+       remainder
+     A.subtraction
+       Answers a and b are correct.
+
+  See: Ch. 2: Using Data, Section - Performing Arithmetic Using Variables and Constants
+
+2.The equal to relational operator is ____________.
+
+       "!="
+       "!!"
+       "="
+     A."=="
+
+  See: Ch. 2: Using Data, Section - Using the boolean Data Type
+
+3.You use a type cast to explicitly override an implicit type.
+
+     A.True
+       False
+
+  See: Ch. 2: Using Data, Section - Understanding Type Conversion
+
+4.When data cannot be changed after a class is compiled, the data is ____________.
+
+       volatile
+       variable
+       mutable
+     A.constant
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+5.Which Java statement produces w on one line and xyz on the next line?
+
+       System.out.println("w\nx\ny\nz");
+       System.out.println("wxyz");
+     A.System.out.println("w\nxyz");
+       System.out.println("w" + "xyz");
+
+  See: Ch. 2: Using Data, Section - Using the char Data Type
+
+6.An escape sequence always begins with a(n) ____________.
+
+       forward slash
+       equal sign
+     A.backslash
+       e
+
+  See: Ch. 2: Using Data, Section - Using the char Data Type
+
+7.Which assignment is correct in Java?
+
+     A.double value = 2.12;
+       float value = 4 (double);
+       int value = (float) 4.5;
+       char value = 5c;
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+8.The remainder operator ____________.
+
+       is represented by a forward slash
+       provides the quotient of integer division
+       must follow a division operation
+     A.is represented by %
+
+  See: Ch. 2: Using Data, Section - Performing Arithmetic Using Variables and Constants
+
+9.Which of the following data types can store the value 0 using the least amount of memory?
+
+       long
+     A.byte
+       short
+       int
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+10.A boolean variable can hold any character.
+
+       True
+     A.False
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+11.Which assignment is correct in Java?
+
+       double money = 12.0;
+       double money = 12.0d;
+       double money = 12;
+     A.all of the above
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+12.When you perform arithmetic with values of diverse types, Java ____________.
+
+       requires you to explicitly convert the values to a unifying type
+       issues an error message
+       implicitly converts the values to the type of the first operand
+     A.implicitly converts the values to a unifying type
+
+  See: Ch. 2: Using Data, Section - Understanding Type Conversion
+
+13.In Java, what is the value of 3 + 7 * 4 + 2?
+
+       42
+       48
+     A.33
+       21
+
+  See: Ch. 2: Using Data, Section - Performing Arithmetic Using Variables and Constants
+
+14.The assignment operator in Java is ==
+
+       True
+     A.False
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+15.Which of the following is not a primitive data type in Java?
+
+       boolean
+       byte
+     A.sector
+       int
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+16.Which of the following elements is not required in a variable declaration?
+
+       an identifier
+       a type
+       a semicolon
+     A.an assigned value
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+17.Assuming you have declared shoeSize to be a variable of type int, which of the following is a valid assignment statement in Java?
+
+     A.shoeSize = 9;
+       shoeSize = 9.5;
+       shoeSize = "nine";
+       Two of the above are valid.
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+18.The value 137.68 can be held by a variable of type float.
+
+     A.True
+       False
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+19.Which assignment is correct in Java?
+
+       Two of these are correct
+     A.char aChar = '*';
+       char aChar = 5.5;
+       char aChar = "W";
+
+  See: Ch. 2: Using Data, Section - Declaring and Using Constants and Variables
+
+20.If you attempt to add a float, an int, and a byte, the result will be a(n) ____________.
+
+       byte
+     A.float
+       int
+       error message
+
+  See: Ch. 2: Using Data, Section - Understanding Type Conversion
