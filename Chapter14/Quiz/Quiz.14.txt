@@ -1,0 +1,173 @@
+1.A class that will respond to button-press events must use which phrase in its header?
+
+      extends Action
+    A.implements ActionListener
+      extends Jframe
+      import java.event
+
+      See: Ch. 14: Introduction to Swing Components, Section - Learning About Event-Driven Programming
+
+2.If a class contains two components that might each generate a specific event type, 
+  you can determine which component caused the event by using the ____________ method.
+
+      identifyOrigin()
+      whichOne()
+    A.getSource()
+      addActionListener()
+
+      See: Ch. 14: Introduction to Swing Components, Section - Learning About Event-Driven Programming
+
+3.Suppose that you have declared a ButtonGroup named twoOptions and added two JCheckBoxes named box1 and box2 to it. 
+  Which box is selected after the following statements execute?
+
+    twoOptions.setSelected(box1);
+    twoOptions.setSelected(box2);
+
+    A.box2
+      none of these
+      box1
+      both box1 and box2
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JCheckBox, ButtonGroup, and JComboBox Classes
+
+4.When you write a method that reacts to JCheckBox changes, you name the method ____________.
+
+      actionPerformed()
+    A.itemStateChanged()
+      any legal identifier you choose
+      checkBoxChanged()
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JCheckBox, ButtonGroup, and JComboBox Classes
+
+5.Suppose that you create an application in which you instantiate a JFrame named frame1 and a JLabel named label1. 
+  Which of the following statements within the application adds label1 to frame1 ?
+
+      label1.add(frame1);
+    A.frame1.add(label1);
+      this.add(label1);
+      two of the above
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JLabel Class
+
+6.To group several components such as JCheckBoxes so that a user can select only one at a time, you create a ButtonGroup .
+
+    A.True
+      False
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JCheckBox, ButtonGroup, and JComboBox Classes
+
+7.Which of the following is not true of a JTextField ?
+
+      Its data can be set in the program instead of by the user.
+    A.It is a type of Container.
+      A user can type text data into it.
+      A program can set its attributes so that a user cannot type in it.
+
+      See: Ch. 14: Introduction to Swing Components, Section - Adding JTextFields and JButtons to a JFrame
+
+8.Within an event-driven program, a component on which an event is generated is called the performer.
+
+      True
+    A.False
+
+      See: Ch. 14: Introduction to Swing Components, Section - Learning About Event-Driven Programming
+
+9.The arguments required by the Font constructor include all of the following except ____________.
+
+      typeface
+      style
+      point size
+    A.mode
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JLabel Class
+
+10.A class can implement any number of listeners as long as they are not conflicting listeners.
+      True
+    A.False
+
+      See: Ch. 14: Introduction to Swing Components, Section - Understanding Swing Event Listeners
+
+11.A JFrame contains a JButton named button1 that should execute an actionPerformed() method when clicked. 
+   Which statement is needed in the JFrame class?
+
+      addActionListener(button1);
+      this.addActionListener(button1);
+      addActionListener(this);
+    A.button1.addActionListener(this);
+
+      See: Ch. 14: Introduction to Swing Components, Section - Learning About Event-Driven Programming
+
+12.A class that controls component positioning in a JFrame is a layout manager.
+
+    A.True
+      False
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using a Layout Manager
+
+13.When you use the getSource() method with an ActionEvent object, the result is a(n) ____________.
+
+      Component
+      ActionEvent
+      TextField
+    A.Object
+
+      See: Ch. 14: Introduction to Swing Components, Section - Learning About Event-Driven Programming
+
+14.The statement JFrame myFrame = new JFrame(); creates a JFrame that is ____________.
+
+      invisible and has a title
+      visible and has a title
+      visible and has no title
+    A.invisible and has no title
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JFrame Class
+
+15.When a user closes a JFrame, the default behavior is for the JFrame to close and the application to keep running
+
+      True
+    A.False
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JFrame Class
+
+16.Unlike a Window, a JFrame has a title bar and border.
+
+    A.True
+      False
+
+      See: Ch. 14: Introduction to Swing Components, Section - Understanding Swing Components
+
+17.An advantage of extending the JFrame class is ____________.
+
+      there is no other way to cause an application to close when the user clicks a JFrame’s Close button
+    A.you can set the child class properties within the class constructor
+      there is no other way to make a JFrame visible
+      all of the above
+
+      See: Ch. 14: Introduction to Swing Components, Section - Extending the JFrame Class
+
+18.A JFrame is a descendant of each of the following classes except the ____________ class.
+
+      Window
+      Component
+      Container
+    A.Jar
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JFrame Class
+
+19.Which of the following cannot be specified in any version of the JTextField constructor?
+
+    A.requiring that the value entered be non numeric
+      the initial text in the field
+      All of the above can be specified.
+      the number of columns in the field
+
+      See: Ch. 14: Introduction to Swing Components, Section - Adding JTextFields and JButtons to a JFrame
+
+20.To create a JFrame named aFrame that is 300 pixels wide by 200 pixels tall, you can ____________.
+
+      declare a JFrame named aFrame and then code aFrame.setSize(300, 200);
+      declare a JFrame named aFrame and then code aFrame.setBounds(300, 200);
+      use the declaration JFrame aFrame = new JFrame(300, 200);
+    A.use any of the above
+
+      See: Ch. 14: Introduction to Swing Components, Section - Using the JFrame Class
