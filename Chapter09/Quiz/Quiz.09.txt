@@ -1,0 +1,184 @@
+1.If the value of credits[0].length is not equal to credits[1].length, you know credits is a(n) ____________ array.
+
+A.jagged
+  three-dimensional
+  partially populated
+  uninitialized
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+2.In the following array, what is the value of address[1][1] ?
+  String address = { {"123 Oak ", "345 Elm "},
+                     {"87 Maple ", "901 Linden "} };
+
+  123 Oak
+  87 Maple
+  345 Elm
+A.901 Linden
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+3.When you use a bubble sort to perform an ascending sort, after the first pass through an array the largest value is ____________.
+
+  in the middle of the list
+  at the beginning of the list
+A.at the end of the list
+  It is impossible to determine the answer without more information.
+
+  See: Ch. 9: Advanced Array Concepts, Section - Sorting Array Elements Using the Bubble Sort Algorithm
+
+4.A jagged array has rows of different lengths.
+
+A.True
+  False
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+5.You place two pairs of empty brackets after the data type in the parameter list of a method that receives a two-dimensional array.
+
+A.True
+  False
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+6.An advantage to using an enumerated data type is ____________.
+
+  coding time is reduced because enumerated types are created automatically by the compiler
+  time is saved because programs with enumerated types compile faster
+A.errors are reduced because only a limited set of values can be used with the type
+  All of the above are true.
+
+  See: Ch. 9: Advanced Array Concepts, Section - Creating Enumerations
+
+7.The chief advantage to using the ArrayList class instead of the Arrays class is that an ArrayList ____________.
+
+  is easier to search
+  can be used as an argument to a static method
+  can be much larger
+A.is dynamically resizable
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using the ArrayList Class
+
+8.In the following array, what is the value of fees[1].length ?
+  double[][] fees = { {3.00, 3.50, 4.00, 5.00},
+                      {6.35, 7.35, 8.35, 9.00} };
+
+A.4
+  2
+  8
+  none of the above
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+9.Which of the following is true if a successfully running program contains the following statement:
+  Arrays.fill(tax, 10);
+
+  tax is an array with 10 elements.
+  fill() is a nonstatic method.
+  tax is a two-dimensional array.
+A.none of the above
+
+  See: Ch. 9: Advanced Array Concepts, Section - Using the Arrays Class
+
+10.The chief disadvantage to using the ArrayList class instead of the Arrays class is that an ArrayList cannot be sorted.
+
+   True
+A. False
+
+   See: Ch. 9: Advanced Array Concepts, Section - Using the ArrayList Class
+
+11.When you place objects in order beginning with the object with the highest value, you are sorting in ascending order.
+
+   True
+A. False
+
+   See: Ch. 9: Advanced Array Concepts, Section - Sorting Array Elements Using the Bubble Sort Algorithm
+
+12.In the following array, what is the value of fees.length ?
+   double[][] fees = { {3.00, 3.50, 4.00, 5.00},
+                       {6.35, 7.35, 8.35, 9.00} };
+
+   4
+A. 2
+   8
+   none of the above
+
+13.Using a bubble sort involves comparing each array element with ____________.
+
+   the corresponding element in a parallel array
+A. the adjacent element
+   the lowest element value
+   the arithmetic average
+
+   See: Ch. 9: Advanced Array Concepts, Section - Sorting Array Elements Using the Bubble Sort Algorithm
+
+14.When you use a bubble sort to perform an ascending sort, after the first pass through an array the smallest value is ____________.
+
+   at the end of the list
+   at the beginning of the list
+   in the middle of the list
+A. It is impossible to determine the answer without more information.
+
+   See: Ch. 9: Advanced Array Concepts, Section - Sorting Array Elements Using the Bubble Sort Algorithm
+
+15.How many columns are contained in the following array?
+   double[][] prices = { {2.56, 3.57, 4.58, 5.59},
+                       {12.35, 13.35, 14.35, 15.00} };
+
+A. 4
+   2
+   1
+   8
+
+   See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+16.In the following array, what is the value of code[2][1] ?
+   char[][] code = { {'A ', 'D ', 'M '},
+                     {'P ', 'R ', 'S '},
+                     {'U ', 'V ', 'Z '} };
+
+   'R'
+A. 'V'
+   'U'
+   'P'
+
+   See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+17.How many rows are contained in the following array?
+   double[][] prices = { {2.56, 3.57, 4.58, 5.59},
+                       {12.35, 13.35, 14.35, 15.00} };
+
+   8
+A. 2
+   4
+   1
+
+   See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
+
+18.Which of the following is a requirement when you use a binary search method with an array?
+
+   The array must be numeric.
+A. The array must have been sorted in ascending order.
+   The array must have at least three elements.
+   none of the above
+
+   See: Ch. 9: Advanced Array Concepts, Section - Using the Arrays Class
+
+19.When array elements are objects, you usually want to sort based on a particular ____________ of the object.
+
+   name
+   method
+   type set
+A. field
+
+   See: Ch. 9: Advanced Array Concepts, Section - Sorting Array Elements Using the Bubble Sort Algorithm
+
+20.The following defines a ____________ array:
+   int[][] nums = { {1, 2}, {3, 4}, {5, 6} };
+
+   three-dimensional
+A. two-dimensional
+   six-dimensional
+   one-dimensional
+
+   See: Ch. 9: Advanced Array Concepts, Section - Using Two-Dimensional and Other Multidimensional Arrays
