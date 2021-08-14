@@ -1,0 +1,173 @@
+1.All method declarations contain ____________.
+
+        the keyword static
+        one or more explicitly named access specifiers
+      A.parentheses
+        arguments
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Understanding Method Construction
+
+2.The body of a class is always written _____________.
+
+      A.between curly braces
+        in a single line, as the first statement in a class
+        as a method call
+        within parentheses
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Creating a Class
+
+3.Most class data fields are _____________.
+
+        static
+        final
+        public
+      A.private
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Creating a Class
+
+4.The nonstatic data components of a class often are referred to as the ______________ of that class
+
+        access types
+        methods
+        objects
+      A.instance variables
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Creating a Class
+
+5.The method public static boolean testvalue(int response) returns
+
+      A.a boolean value
+        an int value
+        You cannot determine what is returned.
+        no value
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Adding Parameters to Methods
+
+6.A method is declared as public static void showResults(double d, int i) Which of the following is correct method call
+
+      A.showResults(12.2, 67);
+        Two of these are correct.
+        showResults(4, 99.7);
+        showResults(double d, int i);
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Adding Parameters to Methods
+
+7.The method with the declaration public static int aMethod(double d) is a method type of ______________.
+
+      A.int
+        You cannot determine the method type.
+        static
+        double
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Adding Parameters to Methods
+
+8.You cannot place a method within another method.
+
+      A.True
+        False
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Understanding Method Calls and Placement
+
+9.Which of the following could be the last legally coded line of a method declared as public static int getVal(double sum)
+
+        return;
+        Any of these could be the last coded line of the method.
+      A.return 77;
+        return 2.3;
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Adding Parameters to Methods
+
+10.If a class is named student, the class constructor name is student
+
+      A.True
+        False
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Declaring Objects and Using Their Methods
+
+11.A program or class that instantiates object of another prewritten class is a
+
+      A.class client
+        superclass
+        object
+        patron
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Learning About Classes and Objects
+
+12.Which of the following is a correct call to a method declared as public void aMethod(char code)?
+
+        void aMethod();
+        aMethod(char 'M');
+      A.aMethod('Q');
+        void aMethod('V');
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Adding Parameters to Methods
+
+13.Suppose you declare an object as Book myJournal; Before you store data in myJournal, you
+
+        can declare it to use no memory
+      A.also must explicitly allocate memory for it
+        must explicitly allocate memory for it only if it has a constructor
+        need not explicitly allocate memory for it
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Declaring Objects and Using Their Methods
+
+14.A public static method named computeSum() is located in ClassA. To call the method from within ClassB, use the statement _______________.
+
+      A.ClassA.computeSum();
+        You cannot call computeSum() from within ClassB.
+        ComputeSum(ClassA);
+        ClassB(computeSum());
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Understanding Method Construction
+
+15.An object's data items are also known as ______________.
+
+      A.fields
+        functions
+        instances
+        themes
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Creating a Class
+
+16.If you use the automatically-supplied default constructor when you create an object, ______________
+
+      A.numeric fields are set to 0 (zero)
+        character fields are set to blank
+        Boolean fields are set to true
+        All of these are true.
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - An Introduction to Using Constructors
+
+17.The concept of allowing a class's private data to be changed only by a class's own methods is known as
+
+      A.information hiding
+        data masking
+        structured logic
+        object orientation
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Creating a Class
+
+18.The method with the declaration public static char procedure(double d) has a method type of char.
+
+      A.True
+        False
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Understanding Method Construction
+
+19.You send messages or information to an object through its
+
+      A.methods
+        classes
+        type
+        fields
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section - Learning About Classes and Objects
+
+20.Which of the following method declarations is correct for a static method named displayFacts() if the method receives an int argument?
+
+        public static int displayFacts()
+        public void displayFacts(int data)
+      A.public static void displayFacts(int data)
+        Two of these are correct.
+
+   See: Ch. 3: Using Methods, Classes, and Objects, Section -
