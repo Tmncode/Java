@@ -1,0 +1,257 @@
+1.Which of the following is typically used in a flowchart to indicate a decision?
+
+       oval
+
+       square
+
+       rectangle
+
+     A.diamond
+
+  See: Ch. 5: Making Decisions, Section - Planning Decision-Making Logic
+
+2.What is the output of the following code segment?
+  t = 7;
+  if(t > 7)
+  {
+
+     System.out.print("AAA");
+
+     System.out.print("BBB");
+
+  }
+
+       BBB
+
+       AAA
+
+     A.nothing
+
+       AAABBB
+
+  See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+3.Assuming a variable y has been assigned the value 6, the value of !(y < 7) is ____________.
+
+       7
+
+       true
+
+       6
+
+     A.false
+
+  See: Ch. 5: Making Decisions, Section - Using the Conditional and NOT Operators
+
+4.In Java, the value of (14 > 7) is ____________.
+
+     A.true
+
+       14
+
+       false
+
+       7
+
+  See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+5.In Java, decisions are based on a Boolean value.
+
+     A.True
+
+       False
+
+  See: Ch. 5: Making Decisions, Section - Planning Decision-Making Logic
+
+6.Which of the following has the lowest precedence?
+
+       <
+
+       &&
+
+       ==
+
+     A.||
+
+  See: Ch. 5: Making Decisions, Section - Understanding Operator Precedence
+
+7.Assuming a variable w has been assigned the value 15, what does the following statement do?
+  w == 15 ? x = 2 : x = 0;"assign 2 to x"
+
+       assigns 0 to x
+
+       nothing
+
+     A.assigns 2 to x
+
+       assigns 15 to w
+
+  See: Ch. 5: Making Decisions, Section - Using the Conditional and NOT Operators
+
+8.The operator that combines two conditions into a single Boolean value that is true when at least one of the conditions is true is ____________.
+
+       &&
+
+     A.||
+
+       $$
+
+       !!
+
+  See: Ch. 5: Making Decisions, Section - Using Logical AND and OR Operators
+
+9.There are three types of if statements: single-alternative, dual-alternative, and reverse.
+
+     A.False
+
+       True
+
+  See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+10.The logical structure in which one instruction occurs after another with no branching is a ____________.
+
+       loop
+
+       case
+
+       selection
+
+     A.sequence
+
+  See: Ch. 5: Making Decisions, Section - Planning Decision-Making Logic
+
+11.Assuming the variable score has been assigned the value 9, which of the following statements displays XXX?
+
+       if(score > 0); System.out.println("XXX");
+
+     A.All of the above display XXX.
+
+       if(score <= 9) System.out.println("XXX");
+
+       if(score > 9); System.out.println("XXX");
+
+  See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+12.You can use the exit statement to terminate a switch statement.
+
+       True
+
+     A.False
+
+  See: Ch. 5: Making Decisions, Section - Using the switch Statement
+
+13.Assuming a variable f has been initialized to 5, which of the following statements sets g to 0?
+
+       if(f >= 0 || f < 2) g = 0;
+
+     A.All of the above statements set g to 0.
+
+       if(f < 3 || f > 4) g = 0;
+
+       if(f > 6 || f == 5) g = 0;
+
+  See: Ch. 5: Making Decisions, Section - Using Logical AND and OR Operators
+
+14.Which of the following cannot be the argument tested in a switch statement?
+
+       int
+
+     A.double
+
+       String
+
+       char
+
+  See: Ch. 5: Making Decisions, Section - Using the switch Statement
+
+15.When you code an if statement within another if statement, the statements are nested.
+
+     A.True
+
+       False
+
+   See: Ch. 5: Making Decisions, Section - Nesting if and if...else Statements
+
+16.What is the output of the following code segment?
+
+   t = 0;
+
+   if(t > 7)
+
+      System.out.print("AAA");
+
+      System.out.print("BBB");
+
+     A.BBB
+
+       AAABBB
+
+       AAA
+
+       nothing
+
+  See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+17.What is the output of the following code segment?
+
+   t = 10;
+   if(t > 7)
+   {
+      System.out.print("AAA");
+      System.out.print("BBB");
+   }
+
+       AAA
+
+     A.AAABBB
+
+       BBB
+
+       nothing
+
+   See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+18.The operator that combines two conditions into a single Boolean value that is true only when both of the conditions are true is ____________.
+
+       $$
+
+     A.&&
+
+       ||
+
+       !!
+
+  See: Ch. 5: Making Decisions, Section - Using Logical AND and OR Operators
+
+19.Which of the following displays Error when a student ID is less than 1000 or more than 9999?
+
+       Two of these are correct.
+
+     A.if(stuId < 1000)
+             System.out.println("Error");
+          else
+             if(stuId > 9999)
+                System.out.println("Error");
+
+       if(stuId < 1000 && stuId > 9999)
+             System.out.println("Error");
+
+       if(stuId < 1000) if(stuId > 9999)
+            System.out.println("Error");
+
+  See: Ch. 5: Making Decisions, Section - The if and if...else Statements
+
+20.Which of the following statements correctly outputs the names of voters who live in district 6 and all voters who live in district 7?
+
+     A.if(district == 6 || district == 7)
+             System.out.println("Name is " + name);
+
+       if(district == 6 || 7)
+             System.out.println("Name is " + name);
+
+       if(district = 6 && district == 7)
+             System.out.println("Name is " + name);
+
+       two of these
+
+   See: Ch. 5: Making Decisions, Section - Understanding Operator Precedence
