@@ -1,0 +1,20 @@
+package Chapter10.ProgrammingExercises;
+
+public class ScentedCandle extends Candle {
+    private String scent;
+    public String getScent()
+    {
+        return scent;
+    }
+    public void setScent(String scent)
+    {
+        this.scent = scent;
+    }
+
+    public void setHeight(int h)
+    {
+        final double PER_INCH = 3;
+        super.setHeight(h);
+        price = h * PER_INCH;
+    }
+}

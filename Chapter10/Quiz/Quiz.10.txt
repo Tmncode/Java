@@ -1,0 +1,169 @@
+1.The keyword super always refers to the parent class of the class in which you use it.
+
+       A.True
+         False
+
+  See: Ch. 10: Introduction to Inheritance, Section - Calling Constructors During Inheritance
+
+2.A base class can also be called a superclass.
+
+       A.True
+         False
+
+  See: Ch. 10: Introduction to Inheritance, Section - Learning About the Concept of Inheritance
+
+3.In Java, the concept of keeping data private is known as polymorphism.
+
+         True
+       A.False
+
+  See: Ch. 10: Introduction to Inheritance, Section - Employing Information Hiding
+
+4.When you instantiate an object that is a member of a subclass, the ____________ constructor executes first.
+
+       A.parent class
+         subclass
+         child class
+         extended class
+
+  See: Ch. 10: Introduction to Inheritance, Section - Calling Constructors During Inheritance
+
+5.A compiler can decide to inline a final method—that is, determine the code of the method call when the program is compiled.
+
+       A.True
+         False
+
+  See: Ch. 10: Introduction to Inheritance, Section - Methods You Cannot Override
+
+6.Within a subclass, you cannot override ____________ methods.
+
+         private
+       A.static
+         public
+         constructor
+
+  See: Ch. 10: Introduction to Inheritance, Section - Methods You Cannot Override
+
+7.When a subclass method has the same name and argument types as a superclass method,the subclass method ____________ the superclass method.
+
+       A.overrides
+         overuses
+         overloads
+         overcompensates
+
+  See: Ch. 10: Introduction to Inheritance, Section - Overriding Superclass Methods
+
+8.When a parent class contains a static method, child classes ____________ override it.
+
+         frequently
+         seldom
+       A.cannot
+         must
+
+  See: Ch. 10: Introduction to Inheritance, Section - Methods You Cannot Override
+
+9.You call a static method using the name of ____________, a dot, and the method name.
+
+         its class
+         the class's superclass
+         an object in the same class
+       A.either a or b
+
+  See: Ch. 10: Introduction to Inheritance, Section - Methods You Cannot Override
+
+10.Which of the following statements is true?
+
+         A parent class inherits from a child class.
+       A.A child class inherits from a parent class.
+         Both of the preceding statements are true.
+         Neither a nor b is true.
+
+   See: Ch. 10: Introduction to Inheritance, Section - Extending Classes
+
+11.A reliable way to discover which of two classes is the base class and which is the subclass is to ____________.
+
+         look at the class size
+       A.try saying the two class names together
+         use polymorphism
+         Both a and b are correct.
+
+   See: Ch. 10: Introduction to Inheritance, Section - Learning About the Concept of Inheritance
+
+12.A class named Building has a public, nonstatic method named getFloors(). If School is a child class of Building, 
+   and modelHigh is an object of type School, which of the following statements is valid?
+
+         All of the previous statements are valid.
+       A.modelHigh.getFloors();
+         School.getFloors();
+         Building.getFloors();
+
+   See: Ch. 10: Introduction to Inheritance, Section - Extending Classes
+
+13.If a superclass constructor requires arguments, any constructor of its subclasses must call the superclass constructor as the last statement.
+
+         True
+       A.False
+
+   See: Ch. 10: Introduction to Inheritance, Section - Calling Constructors During Inheritance
+
+14.You use a ____________ method access specifier when you create methods for which you want to prevent overriding in extended classes.
+
+         public
+         protected
+         subclass
+       A.final
+
+   See: Ch. 10: Introduction to Inheritance, Section - Methods You Cannot Override
+
+15.A child class Motorcycle extends a parent class Vehicle. Each class constructor requires one String argument. 
+   The Motorcycle class constructor can call the Vehicle class constructor with the statement ____________.
+
+         Vehicle("Honda");
+         Motorcycle("Harley");
+         Motorcycle(model);
+       A.super("Suzuki");
+
+   See: Ch. 10: Introduction to Inheritance, Section - Calling Constructors During Inheritance
+
+16.If you create a data field or method that is ____________, it can be used within its own class or in any classes extended from that class.
+
+         public
+         protected
+         private
+       A.both a and b
+
+   See: Ch. 10: Introduction to Inheritance, Section - Employing Information Hiding
+
+17.The Java keyword that creates inheritance is inherits.
+
+         True
+       A.False
+
+   See: Ch. 10: Introduction to Inheritance, Section - Extending Classes
+
+18.If the only constructor in a superclass requires arguments, its subclass ____________.
+
+         must contain a constructor that requires arguments
+         must not contain a constructor that requires arguments
+       A.must contain a constructor
+         must not contain a constructor
+
+   See: Ch. 10: Introduction to Inheritance, Section - Calling Constructors During Inheritance
+
+19.Employing inheritance reduces errors because ____________.
+
+         subclasses have access to fewer data fields
+       A.many of the methods a subclass needs have already been used and tested
+         subclasses have access to fewer methods
+         methods that have been created in the superclass can be copied and pasted into the subclass
+
+   See: Ch. 10: Introduction to Inheritance, Section - Learning About the Concept of Inheritance
+
+20.Which of the following choices is the best example of a parent class/child class relationship?
+
+         Apple/Banana
+         Spaniel/Dog
+         Sparrow/Bird
+       A.BodyOfWater/River
+
+   See: Ch. 10: Introduction to Inheritance, Section - Learning About the Concept of Inheritance
