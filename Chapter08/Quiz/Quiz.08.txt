@@ -1,0 +1,176 @@
+(1)When you declare an array, ____________.
+
+   you always reserve memory for it in the same statement
+   you cannot reserve memory for it in the same statement
+   the ability to reserve memory for it in the same statement depends on the type of the array
+ A.you might reserve memory for it in the same statement
+
+   See: Ch. 8: Arrays, Section - Declaring an Array
+
+(2)Suppose you have declared an array as follows:
+   int[] creditScores = {670, 720, 815};
+   What is the value of creditScores.length?
+
+   0
+   2
+   1
+ A.3
+
+   See: Ch. 8: Arrays, Section - Using Variable Subscripts with an Array
+
+(3)If you declare an array as follows, how do you indicate the final element of the array?
+   int[] num = new int[6];
+
+ A.num[5]
+   impossible to tell
+   num[6]
+   num[0]
+
+   See: Ch. 8: Arrays, Section - Declaring an Array
+
+(4)When you initialize an array by giving it values upon creation, you ____________.
+
+ A.do not explicitly give the array a size
+   also must give the array a size explicitly
+   must make all the values zero, blank, or false
+   must make certain each value is different from the others
+
+   See: Ch. 8: Arrays, Section - Initializing an Array
+
+(5)If a class named Student contains a method setID() that takes an int argument and you 
+   write an application in which you create an array of 20 Student objects named scholar, 
+   which of the following statements correctly assigns an ID number to the first Student scholar?
+
+   Student[0].setID(1234);
+ A.scholar[0].setID(1234);
+   Student.setID[0](1234);
+   scholar.setID[0](1234);
+
+   See: Ch. 8: Arrays, Section - Initializing an Array
+
+(6)When you pass an array element to a method, the method receives a copy of the value in the element.
+
+ A.True
+   False
+
+   See: Ch. 8: Arrays, Section - Passing Arrays to and Returning Arrays from Methods
+
+(7)For how many integers does the following statement reserve room?
+   int[] value = new int[34];
+
+   35
+ A.34
+   33
+   0
+
+   See: Ch. 8: Arrays, Section - Declaring an Array
+
+(8)Array names represent ____________.
+
+ A.references
+   allusions
+   functions
+   values
+
+   See: Ch. 8: Arrays, Section - Initializing an Array
+
+(9)Unicode value \u0000 is also known as null.
+
+ A.True
+   False
+
+   See: Ch. 8: Arrays, Section - Initializing an Array
+
+(10)In Java, you can declare an array of 12 elements and initialize some of them.
+
+    True
+ A. False
+
+   See: Ch. 8: Arrays, Section - Initializing an Array
+
+(11)If you declare an integer array as follows, what is the value of num[2] ?
+    int[] num = {101, 202, 303, 404, 505, 606};
+
+    202
+ A. 303
+    101
+    impossible to tell
+
+    See: Ch. 8: Arrays, Section - Initializing an Array
+
+(12)An array is a list of data items that all have the same type.
+
+ A. True
+    False
+
+    See: Ch. 8: Arrays, Section - Declaring an Array
+
+(13)If a method should return an array to its calling method, ____________.
+
+ A. the return type in the method header is followed by square brackets
+    A Java method cannot return an array.
+    the method's return type must match its parameter type
+    the return type in the method header is preceded by an ampersand
+
+    See: Ch. 8: Arrays, Section - Passing Arrays to and Returning Arrays from Methods
+
+(14)In which of the following situations would setting up parallel arrays be most useful?
+
+    You need to calculate interest earned on a savings account balance.
+    You need to determine the shortest distance between two points on a map.
+ A. You need to look up an employee's ID number to find the employee's last name.
+    You need to store a list of 20 commonly misspelled words.
+
+    See: Ch. 8: Arrays, Section - Searching an Array and Using Parallel Arrays
+
+(15)Assume an array is declared as follows.
+    Which of the following statements correctly assigns the value 100 to each of the array elements?
+    int[] num = new int[4];
+
+    for(x = 0; x < 3; ++x) num[x] = 100;
+    for(x = 1; x < 5; ++x) num[x] = 100;
+ A. for(x = 0; x < 4; ++x) num[x] = 100;
+    for(x = 1; x < 4; ++x) num[x] = 100;
+
+    See: Ch. 8: Arrays, Section - Using Variable Subscripts with an Array
+
+(16)You reserve memory locations for an array when you use the keyword memAlloc.
+
+    True
+ A. False
+
+    See: Ch. 8: Arrays, Section - Declaring an Array
+
+(17)Which of the following can be used as an array subscript?
+
+    String
+    char
+ A. int
+    double
+
+    See: Ch. 8: Arrays, Section - Declaring an Array
+
+(18)A parallel array is one that is placed adjacent to another array in code.
+
+    True
+ A. False
+
+   See: Ch. 8: Arrays, Section - Searching an Array and Using Parallel Arrays
+
+(19)A single array element of a primitive type is passed to a method by ____________.
+
+    address
+    osmosis
+    reference
+ A. value
+
+    See: Ch. 8: Arrays, Section - Passing Arrays to and Returning Arrays from Methods
+
+(20)When you pass an array to a method, the method receives ____________.
+
+ A. the address of the array
+    a copy of the array
+    nothing
+    a copy of the first element in the array
+
+    See: Ch. 8: Arrays, Section - Passing Arrays to and Returning Arrays from Methods
