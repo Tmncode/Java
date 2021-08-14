@@ -1,0 +1,222 @@
+1.If String myFriend = new String("Ginny");, which of the following has the value 1?
+
+     A.myFriend.compareTo("Ghazala");
+
+       myFriend.compareTo("Gabriella");
+
+       myFriend.compareTo("Gabby");
+
+       myFriend.compareTo("Hammie");
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+2.The String class replace() method replaces ____________.
+
+     A.every occurrence of a character in a String with another character
+
+       one character in a String with another character
+
+       one String with another String
+
+       a String with a character
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+3.Unlike when you create a String, when you create a StringBuilder, you must use the keyword ____________.
+
+       null
+
+     A.new
+
+       buffer
+
+       class
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+4.The method that determines whether two String objects are equivalent, regardless of case, is equalsCase()
+
+       True
+
+     A.False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+5.Suppose that you declare two String objects as:
+  String word1 = new String("happy");
+  String word2 = new String("happy");
+  The value of word1.equals(word2) is ____________.
+
+       illegal
+
+     A.true
+
+       unknown
+
+       false
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Understanding String Data Problems
+
+6.The difference between int and Integer is ____________.
+
+       nonexistent; both are primitive types
+
+     A.int is a primitive type; Integer is a class
+
+       int is a class; Integer is a primitive type
+
+       nonexistent; both are classes
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+7.Suppose that you declare two String objects as:
+  String word1 = new String("happy");
+  String word2;
+  When you ask a user to enter a value for word2, if the user types happy, the value of word1 == word2 is ____________.
+
+     A.false
+
+       true
+
+       unknown
+
+       illegal
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Understanding String Data Problems
+
+8.If String movie = new String("Finding Dory");, the value of movie.indexOf('i') is 1.
+
+     A.True
+
+       False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+9.A String variable name is a ____________.
+
+     A.reference
+
+       constant
+
+       literal
+
+       value
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Understanding String Data Problems
+
+10.To create a String object, you can use the keyword ____________ before the constructor call, but you are not required to use this format.
+
+       char
+
+       object
+
+       create
+
+     A.new
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+11.A sequence of characters enclosed within double quotation marks is a literal string.
+
+     A.True
+
+       False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+12.The term that programmers use to describe objects that cannot be changed is nonvolatile.
+
+       True
+
+     A.False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+13.The toString() method converts a(n) ____________ to a String.
+
+       char
+
+       float
+
+       int
+
+     A.all the above
+
+   See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+14.Suppose that you create two String objects:
+   String name1 = new String("Jordan");
+   String name2 = new String("Jore");
+   The expression name1.compareTo(name2) has a value of ____________.
+
+     A.-1
+
+       false
+
+       true
+
+       1
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+15.For an alternative to the String class, and so that you can change a String's contents, you can use ____________.
+
+       char
+
+       StringHolder
+
+     A.StringBuilder
+
+       StringMerger
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+16.Suppose that a String is declared as:
+   String aStr = new String("lima bean");
+   The value of aStr.equals("Lima Bean") is ____________.
+
+       illegal
+
+       unknown
+
+     A.false
+
+       true
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Declaring and Comparing String Objects
+
+17.The method that extracts a string from within another string is ____________.
+
+       extract()
+
+     A.substring()
+
+       parseString()
+
+       append()
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+18.The method parseInt() converts a String to an int.
+
+     A.True
+
+       False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+19.Joining Strings with a plus sign is called concatenation.
+
+     A.True
+
+       False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
+
+20.The first position in a String is position 1.
+
+       True
+
+     A.False
+
+  See: Ch. 7: Characters, Strings, and the StringBuilder, Section - Using a Variety of String Methods
